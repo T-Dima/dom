@@ -1,0 +1,18 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    //border: 1px solid red;
+    //color: transparent;
+}
+.container ul{
+    list-style: none;
+}
+
+.container .addEmployee{
+    margin-left: 300px;
+
+
+}
+#coun{
+    height: 50px;
+}
