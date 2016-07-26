@@ -1,8 +1,10 @@
 var salary = 0;
-var numberOfEmployees = parseInt(prompt("Укажите число сотрудников вашей компании",""));
 var array_with_persons = [];//обьявляем массив
 var summ; // переменная для сумарной ЗП
+do {
+    numberOfEmployees  = parseInt(prompt("Укажите число сотрудников вашей компании",""));
 
+}while(numberOfEmployees == 0 ||  isNaN(numberOfEmployees));
 function showName() {
     if (array_with_persons.length >= numberOfEmployees  ) {
         if(numberOfEmployees==-1){ //проверка на бюджет если больше 200
